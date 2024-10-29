@@ -1,0 +1,36 @@
+nav {
+    background-color: #f8f8f8;
+    padding: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul > li {
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+  }
+  
+  ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  ul li:hover > ul {
+    display: block;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+
